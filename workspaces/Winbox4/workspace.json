@@ -16,7 +16,8 @@
             "image": "kasmweb/core-ubuntu-jammy:1.16.0",
             "uncompressed_size_mb": 1200,
             "available_tags": [
-                "latest"
+                "latest",
+                "develop"
             ]
         }
     ]
