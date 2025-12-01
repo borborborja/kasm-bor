@@ -13,7 +13,7 @@
     "compatibility": [
         {
             "version": "1.16.x",
-            "image": "kasmweb/core-ubuntu-jammy:1.16.0",
+            "image": "borborbor/winbox4:latest",
             "uncompressed_size_mb": 1200,
             "available_tags": [
                 "latest",
@@ -22,7 +22,7 @@
         },
         {
             "version": "1.17.x",
-            "image": "kasmweb/core-ubuntu-jammy:1.16.0",
+            "image": "borborbor/winbox4:latest",
             "uncompressed_size_mb": 1200,
             "available_tags": [
                 "latest",
