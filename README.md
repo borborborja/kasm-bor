@@ -20,7 +20,7 @@ Native Linux version of MikroTik Winbox 4 (Beta).
    - Go to your Kasm Workspaces Admin panel.
    - Navigate to **Workspaces** -> **Registry**.
    - Click **Add Registry**.
-   - URL: `https://borja.github.io/kasm-bor/`
+   - URL: `https://borborborja.github.io/kasm-bor/`
 
 2. **Install Workspaces**:
    - Once the registry is added, you will see the new workspaces listed.
