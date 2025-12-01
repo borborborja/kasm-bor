@@ -39,7 +39,10 @@ Fill in the following fields:
 - **Workspace Type**: `Container`
 - **Friendly Name**: `Antigravity`
 - **Description**: `Antigravity application container.`
-- **Docker Image**: `your-docker-user/antigravity:latest` (The image you pushed above)
+- **Docker Image**: `your-docker-user/antigravity:latest`
+  > **IMPORTANT**: This must match exactly what you used in the `docker build` command.
+  > - If your Docker Hub username is `borja`, this would be `borja/antigravity:latest`.
+  > - You **MUST** have successfully run `docker push` for this to work.
 - **Enabled**: `Yes`
 - **Category**: `Development`
 - **Icon URL**: `https://borborborja.github.io/kasm-bor/icons/antigravity.svg` (Or upload your own)
@@ -59,7 +62,8 @@ Fill in the following fields:
 - **Workspace Type**: `Container`
 - **Friendly Name**: `Winbox 4`
 - **Description**: `MikroTik Winbox 4 (Native Linux Beta).`
-- **Docker Image**: `your-docker-user/winbox4:latest` (The image you pushed above)
+- **Docker Image**: `your-docker-user/winbox4:latest`
+  > **IMPORTANT**: Replace `your-docker-user` with your actual Docker Hub username (e.g., `borja/winbox4:latest`).
 - **Enabled**: `Yes`
 - **Category**: `Development`
 - **Icon URL**: `https://borborborja.github.io/kasm-bor/icons/winbox.svg` (Or upload your own)
