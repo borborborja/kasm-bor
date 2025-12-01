@@ -1,0 +1,23 @@
+{
+    "description": "An example workspace to demonstrate the registry structure.",
+    "docker_registry": "https://index.docker.io/v1/",
+    "image_src": "example.svg",
+    "categories": [
+        "Development"
+    ],
+    "friendly_name": "Example Workspace",
+    "architecture": [
+        "amd64",
+        "arm64"
+    ],
+    "compatibility": [
+        {
+            "version": "1.16.x",
+            "image": "kasmweb/ubuntu-jammy-desktop:1.16.0",
+            "uncompressed_size_mb": 2500,
+            "available_tags": [
+                "1.16.0"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "description": "Antigravity application container.",
+    "docker_registry": "https://index.docker.io/v1/",
+    "image_src": "antigravity.svg",
+    "categories": [
+        "Development"
+    ],
+    "friendly_name": "Antigravity",
+    "architecture": [
+        "amd64"
+    ],
+    "compatibility": [
+        {
+            "version": "1.16.x",
+            "image": "kasmweb/core-ubuntu-jammy:1.16.0",
+            "uncompressed_size_mb": 1000,
+            "available_tags": [
+                "latest"
+            ]
+        }
+    ]
+}
